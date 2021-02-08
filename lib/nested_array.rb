@@ -33,7 +33,6 @@ def sorted_matrix
   sorted = array[0].sort
   sorted2 = array[1].sort
   return sorted
-  return sorted2
 end
 
 def matrix_lookup(matrix, row, column)
