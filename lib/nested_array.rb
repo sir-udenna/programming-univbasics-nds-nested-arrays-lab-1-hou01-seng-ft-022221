@@ -41,8 +41,8 @@ def matrix_lookup(matrix, row, column)
   array = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
   array[0].sort!
   array[1].sort!
-  content = matrix[row][column]
-  return content
+  matrix = array[row][column]
+  return matrix
 end
 
 def matrix_update(matrix, row, column, new_value)
